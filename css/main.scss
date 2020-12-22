@@ -1703,161 +1703,7 @@ footer {
       }
     }
 }
-.question-section{
-  .bg{
-    position: absolute;
-    top: -103px;
-    left: 0;
-  }
-  min-height: 100vh;
-  .row-col{
-    margin-bottom: 20px;
-  }
-  .row-how{
-    .question-content{
-      p{
-        max-width: 100%;
-      }
-    }
-  }
-  .question-content{
-    padding-right: 50px;
-    h1{
-      font-size: 100px;
-      color: #7209b7;
-      font-weight: 900;
-      opacity: 15%;
-      margin-bottom: -40px;
-      text-transform: uppercase;
-    }
-    p{
-      font-size: 18px;
-      font-weight: 400;
-      padding-left: 60px;
-      margin-left: auto;
-      span{
-        font-weight: 800;
-      }
-    }
-  }
-}
-.performers-form{
-  background: #3a0ca3;
-  border-radius: 50px;
-  padding: 30px;
-  margin-top: -88%;
-  .header{
-    h1{
-      font-size: 22px;
-      color: #fff;
-      font-weight: 800;
-      margin-bottom: 10px;
-      span{
-        color: #fff200; 
-      }
-      b{
-        color: #cc1f26;
-      }
-    }
-    p{
-      color: #fff;
-      font-weight: 400;
-      font-size: 13px;
-    }
-  }
-  .col-end{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 0 5px;
-  }
-  .row-input{
-    width: 100%;
-    margin-bottom: 20px;
-    h2{
-      color: #fff;
-      font-weight: 900;
-      font-size: 25px;
-      margin-bottom: 20px;
-    }
-    input, select{
-      width: 100%;
-      height: 70px;
-      border-radius: 50px;
-      border: none;
-      padding: 0 20px;
-      font-size: 18px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 900;
-      color: #000;
-      &::placeholder{
-        font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
-        color: #cdcdcd;
-      }
-    }
-    select{
-      &.select_one{
-        background-position: 93% 30px;
-      }
-      &.select_two{
-        background-position: 87% 30px;
-      }
-      font-weight: 500;
-      appearance: none;
-      background-size: 28px;
-      background-repeat: no-repeat;
-      background-image: url(../images/chevron.png);
-    }
-  }
-  .row-upload{
-    .col-video-upload{
-      button{
-        width: 100%;
-        background: #be1e2d;
-        text-align: center;
-        padding: 20px 40px;
-        border-radius: 50px;
-        color: #fff;
-        font-size: 18px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
-        border: none;
-      }
-    }
-    .col-image-upload{
-      img{
-        height: 137px;
-        width: 100%;
-        border-radius: 30px;
-        object-fit: cover;
-      }
-      button{
-        width: 177px;
-        margin: 0 auto;
-        position: absolute;
-        bottom: 20px;
-        left: 0;
-        right: 0;
-        border-radius: 50px;
-        color: #cdcdcd;
-        font-size: 18px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
-        border: none;
-        padding: 10px 30px;
-        &:hover{
-          color: #000;
-  }
 
-  .cool-below {
-    position: absolute;
-    bottom: -200px;
-    left: 0px;
-  }
-}
 
 .shop-section {
   padding: 90px 0;
@@ -1982,7 +1828,7 @@ footer {
       }
     }
   }
-}
+
 .row-amount-selection{
   .col-end{
     justify-content: flex-end;
@@ -2118,3 +1964,159 @@ footer {
   }
 
 
+  .question-section{
+    .bg{
+      position: absolute;
+      top: -103px;
+      left: 0;
+    }
+    min-height: 100vh;
+    .row-col{
+      margin-bottom: 20px;
+    }
+    .row-how{
+      .question-content{
+        p{
+          max-width: 100%;
+        }
+      }
+    }
+    .question-content{
+      padding-right: 50px;
+      h1{
+        font-size: 100px;
+        color: #7209b7;
+        font-weight: 900;
+        opacity: 15%;
+        margin-bottom: -40px;
+        text-transform: uppercase;
+      }
+      p{
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 60px;
+        margin-left: auto;
+        span{
+          font-weight: 800;
+        }
+      }
+    }
+  }
+  .performers-form{
+    background: #3a0ca3;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: -88%;
+    .header{
+      h1{
+        font-size: 22px;
+        color: #fff;
+        font-weight: 800;
+        margin-bottom: 10px;
+        span{
+          color: #fff200; 
+        }
+        b{
+          color: #cc1f26;
+        }
+      }
+      p{
+        color: #fff;
+        font-weight: 400;
+        font-size: 13px;
+      }
+    }
+    .col-end{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 0 5px;
+    }
+    .row-input{
+      width: 100%;
+      margin-bottom: 20px;
+      h2{
+        color: #fff;
+        font-weight: 900;
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+      input, select{
+        width: 100%;
+        height: 70px;
+        border-radius: 50px;
+        border: none;
+        padding: 0 20px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        color: #000;
+        &::placeholder{
+          font-size: 20px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 900;
+          color: #cdcdcd;
+        }
+      }
+      select{
+        &.select_one{
+          background-position: 93% 30px;
+        }
+        &.select_two{
+          background-position: 87% 30px;
+        }
+        font-weight: 500;
+        appearance: none;
+        background-size: 28px;
+        background-repeat: no-repeat;
+        background-image: url(../images/chevron.png);
+      }
+    }
+    .row-upload{
+      .col-video-upload{
+        button{
+          width: 100%;
+          background: #be1e2d;
+          text-align: center;
+          padding: 20px 40px;
+          border-radius: 50px;
+          color: #fff;
+          font-size: 18px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 800;
+          border: none;
+        }
+      }
+      .col-image-upload{
+        img{
+          height: 137px;
+          width: 100%;
+          border-radius: 30px;
+          object-fit: cover;
+        }
+        button{
+          width: 177px;
+          margin: 0 auto;
+          position: absolute;
+          bottom: 20px;
+          left: 0;
+          right: 0;
+          border-radius: 50px;
+          color: #cdcdcd;
+          font-size: 18px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 800;
+          border: none;
+          padding: 10px 30px;
+          &:hover{
+            color: #000;
+    }
+  
+    .cool-below {
+      position: absolute;
+      bottom: -200px;
+      left: 0px;
+    }
+        }
+      }

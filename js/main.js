@@ -92,7 +92,7 @@ $(function() {
             nav:false,
         },
         1000: {
-          nav:false,
+        
 
         },
     },
