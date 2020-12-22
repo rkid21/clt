@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
   .container {
-    max-width: 1235px;
+    max-width: 1200px;
   }
 }
 
@@ -83,6 +83,12 @@
   .shape-contact {
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
+  }
+}
+
+@media (max-width: 1366px) {
+  .owl-carousel .owl-nav.disabled {
+    display: none !important;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
