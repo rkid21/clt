@@ -62,4 +62,38 @@ $(function() {
   $(function() {
         $('.do-dont').matchHeight({byRow:false});
         	$('.visionary .split').matchHeight({byRow:false});
-	});
+  });
+  
+
+
+
+  $(".js-modal-btn").modalVideo();
+
+
+
+
+  $(" .shop-row .owl-carousel").owlCarousel({
+    loop: true,
+    smartSpeed: 1000,
+    items: 5,
+    dots: true,
+    nav: true,
+    navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+    responsive: {
+        0: {
+            items: 2,
+        },
+        600: {
+            items: 2,
+
+        },
+        800: {
+            items: 3,
+            nav:false,
+        },
+        1000: {
+          nav:false,
+
+        },
+    },
+});

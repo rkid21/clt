@@ -71,3 +71,9 @@
         transform: scale(0.7);
     }
 }
+
+
+@media(max-width:1366px){
+    .owl-carousel .owl-nav.disabled {
+    display: none !important;}
+}
