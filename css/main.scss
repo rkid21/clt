@@ -1393,3 +1393,58 @@ footer{
 .involve-section .bg {
   top: -1px;
 }
+.page-header{
+  .top-nav{
+    .row{
+      justify-content: flex-end;
+    }
+  }
+  .navbar{
+    .navbar-brand{
+      img{
+        margin-top: -50px;
+      }
+    }
+    .navbar-nav{
+      li{
+        margin: 0 15px;
+        a{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+.page-hero{
+    min-height: 612px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    .page-head-title{
+      margin-bottom: 20px;
+      h1{
+        color: #fff;
+        font-size: 40px;
+        font-weight: 900;
+        span{
+          color: #fff200;
+        }
+      }
+    }
+    .page-head-content{
+      img{
+        float: right;
+      }
+      p{
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        span{
+          font-weight: 800;
+          color: #fff200;
+        }
+      }
+    }
+}

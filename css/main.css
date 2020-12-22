@@ -1807,4 +1807,66 @@ footer .common-col ul li {
 .involve-section .bg {
   top: -1px;
 }
+
+.page-header .top-nav .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.page-header .navbar .navbar-brand img {
+  margin-top: -50px;
+}
+
+.page-header .navbar .navbar-nav li {
+  margin: 0 15px;
+}
+
+.page-header .navbar .navbar-nav li a {
+  font-size: 13px;
+}
+
+.page-hero {
+  min-height: 612px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0;
+}
+
+.page-hero .page-head-title {
+  margin-bottom: 20px;
+}
+
+.page-hero .page-head-title h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.page-hero .page-head-title h1 span {
+  color: #fff200;
+}
+
+.page-hero .page-head-content img {
+  float: right;
+}
+
+.page-hero .page-head-content p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.page-hero .page-head-content p span {
+  font-weight: 800;
+  color: #fff200;
+}
 /*# sourceMappingURL=main.css.map */
