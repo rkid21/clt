@@ -2207,6 +2207,8 @@ footer .common-col ul li {
      object-fit: cover;
   margin-bottom: 20px;
   border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 15px 5px #e0e0e0;
+  box-shadow: 0px 0px 15px 5px #e0e0e0;
 }
 
 .shop-section .shop-row .shop-list a {
