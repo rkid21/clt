@@ -1861,6 +1861,7 @@ footer .common-col ul li {
 .about-body {
   padding-top: 100px;
   color: #3a0ca3;
+  position: relative;
 }
 
 .about-body .about-head h1 {
@@ -1898,9 +1899,27 @@ footer .common-col ul li {
           transform: translateY(-60px);
 }
 
+.about-body .about-left {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
+.about-body .about-right {
+  position: absolute;
+  right: 0px;
+  top: -20px;
+}
+
+.z-over {
+  position: relative;
+  z-index: 99;
+}
+
 .contact-us.about-contact .contact-choices {
   position: relative;
   z-index: 10;
+  padding-top: 40px;
 }
 
 .contact-us.about-contact .contact-choices .contact-item {
@@ -1909,13 +1928,52 @@ footer .common-col ul li {
 
 .contact-us.about-contact .contact-choices .contact-item p {
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .contact-us.about-contact .contact-choices .contact-item a {
-  padding: 10px 30px;
-  font-weight: bold;
+  padding: 20px 50px;
+  font-weight: 900;
   background-color: #fff;
+  border-radius: 20px;
+  font-size: 22px;
+}
+
+.contact-us.about-contact .contact-choices .apply a {
+  color: #3a0ca3;
+}
+
+.contact-us.about-contact .contact-choices .enter a {
+  color: #ffe018;
+  background-color: #7209b7;
+}
+
+.contact-us.about-contact .contact-choices .vote a {
+  color: #ffe018;
+  background-color: #be1e2d;
+}
+
+.contact-us.about-contact .contact-thank-you {
+  position: relative;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-us.about-contact .contact-thank-you h1 {
+  color: #ffe018;
+  font-weight: 900;
+}
+
+.contact-us.about-contact .contact-thank-you .charity {
+  position: absolute;
+  right: 40px;
+  top: 100px;
+}
+
+.contact-us.about-contact .contact-thank-you .charity img {
+  width: 500px;
 }
 
 .page-header .top-nav .row {
@@ -1978,5 +2036,72 @@ footer .common-col ul li {
 .page-hero .page-head-content p span {
   font-weight: 800;
   color: #fff200;
+}
+
+.page-hero .banner-vid {
+  padding-top: 100px;
+}
+
+.page-hero .banner-vid .vid-thumb {
+  position: relative;
+}
+
+.page-hero .banner-vid .vid-thumb .thumb img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.page-hero .banner-vid .vid-thumb .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.page-hero .banner-vid .vid-info {
+  background-color: #4cc9f0;
+  padding: 20px 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.page-hero .banner-vid .vid-info h2 {
+  color: #fff;
+}
+
+.page-hero .banner-vid .vid-info p {
+  color: #fff;
+}
+
+.thank {
+  padding: 70px 0;
+  margin-bottom: 200px;
+}
+
+.thank h2 {
+  color: #3a0ca3;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.thank .thank-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thank .thank-wrapper .thank-item {
+  width: 20%;
 }
 /*# sourceMappingURL=main.css.map */

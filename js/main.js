@@ -62,4 +62,9 @@ $(function() {
   $(function() {
         $('.do-dont').matchHeight({byRow:false});
         	$('.visionary .split').matchHeight({byRow:false});
-	});
+  });
+  
+
+
+
+  $(".js-modal-btn").modalVideo();

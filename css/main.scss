@@ -1410,7 +1410,6 @@ footer {
   top: -1px;
 }
 
-
 .page-banner {
   position: relative;
   .banner-wrapper {
@@ -1441,6 +1440,7 @@ footer {
 .about-body {
   padding-top: 100px;
   color: #3a0ca3;
+  position: relative;
   .about-head {
     h1 {
       color: #3a0ca3;
@@ -1465,92 +1465,199 @@ footer {
       color: #3a0ca3;
       margin-bottom: 20px;
     }
-    
   }
 
   .about-img {
     transform: translateY(-60px);
   }
+
+  .about-left {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+  }
+  .about-right {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+  }
 }
 
+.z-over {
+  position: relative;
+  z-index: 99;
+}
 
-.contact-us.about-contact{
-
-
-  .contact-choices{
+.contact-us.about-contact {
+  .contact-choices {
     position: relative;
     z-index: 10;
-    .contact-item{
+    padding-top: 40px;
+    .contact-item {
       text-align: center;
-      p{
+      p {
         color: #fff;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
       }
-      a{
-        padding: 10px 30px;
-        font-weight: bold;
-        background-color:#fff;
+      a {
+        padding: 20px 50px;
+        font-weight: 900;
+        background-color: #fff;
+        border-radius: 20px;
+        font-size: 22px;
       }
+    }
 
+    .apply {
+      a {
+        color: #3a0ca3;
+      }
+    }
+    .enter {
+      a {
+        color: #ffe018;
+        background-color: #7209b7;
+      }
+    }
+    .vote {
+      a {
+        color: #ffe018;
+        background-color: #be1e2d;
+      }
     }
   }
 
+  .contact-thank-you {
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    h1 {
+      color: #ffe018;
+      font-weight: 900;
+    }
+
+    .charity {
+      position: absolute;
+      right: 40px;
+      top: 100px;
+      img {
+        width: 500px;
+      }
+    }
+  }
 }
 
-
-.page-header{
-  .top-nav{
-    .row{
+.page-header {
+  .top-nav {
+    .row {
       justify-content: flex-end;
     }
   }
-  .navbar{
-    .navbar-brand{
-      img{
+  .navbar {
+    .navbar-brand {
+      img {
         margin-top: -50px;
       }
     }
-    .navbar-nav{
-      li{
+    .navbar-nav {
+      li {
         margin: 0 15px;
-        a{
+        a {
           font-size: 13px;
         }
       }
     }
   }
 }
-.page-hero{
-    min-height: 612px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0;
-    .page-head-title{
-      margin-bottom: 20px;
-      h1{
-        color: #fff;
-        font-size: 40px;
-        font-weight: 900;
-        span{
-          color: #fff200;
-        }
+.page-hero {
+  min-height: 612px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  .page-head-title {
+    margin-bottom: 20px;
+    h1 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: 900;
+      span {
+        color: #fff200;
       }
     }
-    .page-head-content{
-      img{
-        float: right;
-      }
-      p{
-        font-size: 20px;
-        font-weight: 400;
-        color: #fff;
-        span{
-          font-weight: 800;
-          color: #fff200;
-        }
+  }
+  .page-head-content {
+    img {
+      float: right;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+      span {
+        font-weight: 800;
+        color: #fff200;
       }
     }
+  }
+}
 
+.page-hero {
+  .banner-vid {
+
+    padding-top: 100px;
+    .vid-thumb {
+      position: relative;
+    .thumb{
+      
+      img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+      }
+    }
+     
+     .play-btn{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+     }
+    }
+    .vid-info {
+      background-color: #4cc9f0;
+      padding: 20px 20px;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      h2 {
+        color: #fff;
+      }
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+
+.thank{
+  padding: 70px 0;
+  margin-bottom: 200px;
+  h2{
+    color: #3a0ca3;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+  .thank-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .thank-item{
+      width: 20%;
+    }
+  }
 }
